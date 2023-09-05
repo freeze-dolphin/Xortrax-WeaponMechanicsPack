@@ -1,14 +1,14 @@
 {
 	"credit": "Made with Blockbench, by Sapphira Tempest",
 	"textures": {
-		"7": "handle",
-		"8": "trigger",
-		"9": "butt",
-		"10": "main",
-		"11": "aiming",
-		"12": "shell",
-		"13": "muzzle",
-		"particle": "handle"
+		"7": "item/mdt/mgl/handle",
+		"8": "item/mdt/mgl/trigger",
+		"9": "item/mdt/mgl/butt",
+		"10": "item/mdt/mgl/main",
+		"11": "item/mdt/mgl/aiming",
+		"12": "item/mdt/mgl/shell",
+		"13": "item/mdt/mgl/muzzle",
+		"particle": "item/mdt/mgl/handle"
 	},
 	"elements": [
 		{
