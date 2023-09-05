@@ -26,27 +26,27 @@
         }
     },
     "overrides": [
-        {"predicate": {"pulling": 1}, "model": "item/crossbow_pulling_0"},
-        {"predicate": {"pulling": 1, "pull": 0.58}, "model": "item/crossbow_pulling_1"},
-        {"predicate": {"pulling": 1, "pull": 1.0}, "model": "item/crossbow_pulling_2"},
-        {"predicate": {"charged": 1}, "model": "item/crossbow_arrow"},
-        {"predicate": {"charged": 1, "firework": 1}, "model": "item/crossbow_firework"},
+        {"predicate": {"custom_model_data":0, "pulling": 1}, "model": "item/crossbow_pulling_0"},
+        {"predicate": {"custom_model_data":0, "pulling": 1, "pull": 0.58}, "model": "item/crossbow_pulling_1"},
+        {"predicate": {"custom_model_data":0, "pulling": 1, "pull": 1.0}, "model": "item/crossbow_pulling_2"},
+        {"predicate": {"custom_model_data":0, "charged": 1}, "model": "item/crossbow_arrow"},
+        {"predicate": {"custom_model_data":0, "charged": 1, "firework": 1}, "model": "item/crossbow_firework"},
 
-		{"predicate": {"custom_model_data":-1000}, "model":"item/weapons/reticle_pmii"},
+		    {"predicate": {"custom_model_data":-1000}, "model":"item/weapons/reticle_pmii"},
         {"predicate": {"custom_model_data":-100}, "model":"item/weapons/ammo_rocket"},
         {"predicate": {"custom_model_data":-10}, "model":"item/weapons/combatknife"},
-		{"predicate": {"custom_model_data":-1}, "model":"item/weapons/stim"},
+		    {"predicate": {"custom_model_data":-1}, "model":"item/weapons/stim"},
 
-		{"predicate": {"custom_model_data":   1}, "model":"item/weapons/uzi"},
+		    {"predicate": {"custom_model_data":   1}, "model":"item/weapons/uzi"},
         {"predicate": {"custom_model_data":   2}, "model":"item/weapons/aug"},
         {"predicate": {"custom_model_data":   3}, "model":"item/weapons/origin12"},
         {"predicate": {"custom_model_data":   4}, "model":"item/weapons/rpg7"},
-		{"predicate": {"custom_model_data":   5}, "model":"item/weapons/ak47"},
+		    {"predicate": {"custom_model_data":   5}, "model":"item/weapons/ak47"},
         {"predicate": {"custom_model_data":   6}, "model":"item/weapons/fnfal"},
         {"predicate": {"custom_model_data":   7}, "model":"item/weapons/m4a1"},
         {"predicate": {"custom_model_data":   8}, "model":"item/weapons/coltpython"},
         {"predicate": {"custom_model_data":   9}, "model":"item/weapons/deserteagle"},
-		{"predicate": {"custom_model_data":  10}, "model":"item/weapons/kar98k"},
+		    {"predicate": {"custom_model_data":  10}, "model":"item/weapons/kar98k"},
         {"predicate": {"custom_model_data":  11}, "model":"item/weapons/mg34"},
         {"predicate": {"custom_model_data":  12}, "model":"item/weapons/famasg2"},
         {"predicate": {"custom_model_data":  13}, "model":"item/weapons/ax50"},
@@ -101,11 +101,11 @@
         {"predicate": {"custom_model_data": 100007}, "model":"item/weapons/m4a1_reflexsight"},
         {"predicate": {"custom_model_data": 101007}, "model":"item/weapons/m4a1_reflexsightaiming"},
         {"predicate": {"custom_model_data": 102007}, "model":"item/weapons/m4a1_reflexsightsprinting"},
-		{"predicate": {"custom_model_data":1000007}, "model":"item/weapons/m4a1_suppressor"},
+		    {"predicate": {"custom_model_data":1000007}, "model":"item/weapons/m4a1_suppressor"},
         {"predicate": {"custom_model_data":1001007}, "model":"item/weapons/m4a1_suppressoraiming"},
         {"predicate": {"custom_model_data":1002007}, "model":"item/weapons/m4a1_suppressorsprinting"},
         {"predicate": {"custom_model_data":1100007}, "model":"item/weapons/m4a1_reflexsight_suppressor"},
         {"predicate": {"custom_model_data":1101007}, "model":"item/weapons/m4a1_reflexsight_suppressoraiming"},
         {"predicate": {"custom_model_data":1102007}, "model":"item/weapons/m4a1_reflexsight_suppressorsprinting"}
-	]
+	  ]
 }
