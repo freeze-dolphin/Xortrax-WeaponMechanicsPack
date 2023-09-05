@@ -1,13 +1,15 @@
 {
 	  "credit": "Made with Blockbench, by Sapphira Tempest",
     "textures": {
-        "2": "item/mdt/mgl/butt",
-        "3": "item/mdt/mgl/main",
-        "4": "item/mdt/mgl/aiming",
-        "5": "item/mdt/mgl/shell",
-        "6": "item/mdt/mgl/muzzle",
-        "particle": "item/mdt/mgl/handle"
-    },
+        "0": "item/mdt/mgl/handle",
+        "1": "item/mdt/mgl/trigger",
+		    "2": "item/mdt/mgl/butt",
+		    "3": "item/mdt/mgl/main",
+		    "4": "item/mdt/mgl/aiming",
+		    "5": "item/mdt/mgl/shell",
+		    "6": "item/mdt/mgl/muzzle",
+		    "particle": "handle"
+	  },
 	  "elements": [
 		    {
 			      "name": "hexadecagon",
